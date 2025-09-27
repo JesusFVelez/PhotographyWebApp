@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/team/team1.png",
+    "name": "William Robert",
+    "designation": "Lead Photographer"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/team/team2.png",
+    "name": "Robin Anderson",
+    "designation": "Second Shooter"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/team/team3.png",
+    "name": "Thomas Albert",
+    "designation": "Assistant"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/team/team4.png",
+    "name": "Maria Sam",
+    "designation": "Associate shooter"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/team/team5.png",
+    "name": "Jesmin Sara",
+    "designation": "Drone photographers"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/team/team6.png",
+    "name": "Mokarram Hossain",
+    "designation": "News photographers"
+  },
+  {
+    "id": 7,
+    "image": "assets/images/team/team7.png",
+    "name": "Jenilia Arnold",
+    "designation": "Portrait photographers"
+  },
+  {
+    "id": 8,
+    "image": "assets/images/team/team8.png",
+    "name": "Harry Williamson",
+    "designation": "Lightman"
+  },
+  {
+    "id": 9,
+    "image": "assets/images/team/team9.png",
+    "name": "Robin Anderson",
+    "designation": "Lightman"
+  },
+  {
+    "id": 10,
+    "image": "assets/images/team/team10.png",
+    "name": "Roman Sana",
+    "designation": "Senior Photographer"
+  },
+  {
+    "id": 11,
+    "image": "assets/images/team/team11.png",
+    "name": "Jeccika Zarin",
+    "designation": "Jeccika Zarin"
+  },
+  {
+    "id": 12,
+    "image": "assets/images/team/team12.png",
+    "name": "Ruham Sania",
+    "designation": "Assistant"
+  }
+]

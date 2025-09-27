@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/bg/portfolio1.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "wedding",
+    "category": "Wedding",
+    "categorySlug": "wedding"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/bg/portfolio2.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "Products",
+    "category": "Products",
+    "categorySlug": "products"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/bg/portfolio5.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "Fashion",
+    "category": "Fashion",
+    "categorySlug": "fashion"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/bg/portfolio11.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "wedding",
+    "category": "Wedding",
+    "categorySlug": "wedding"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/bg/portfolio4.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "Products",
+    "category": "Products",
+    "categorySlug": "products"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/bg/portfolio9.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "Fashion",
+    "category": "Fashion",
+    "categorySlug": "fashion"
+  },
+  {
+    "id": 7,
+    "image": "assets/images/bg/portfolio8.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "wedding",
+    "category": "Wedding",
+    "categorySlug": "wedding"
+  },
+  {
+    "id": 8,
+    "image": "assets/images/bg/portfolio7.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "Products",
+    "category": "Products",
+    "categorySlug": "products"
+  },
+  {
+    "id": 9,
+    "image": "assets/images/bg/portfolio10.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "Fashion",
+    "category": "Fashion",
+    "categorySlug": "fashion"
+  },
+  {
+    "id": 10,
+    "image": "assets/images/bg/portfolio13.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "wedding",
+    "category": "Wedding",
+    "categorySlug": "wedding"
+  },
+  {
+    "id": 11,
+    "image": "assets/images/bg/portfolio12.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "wedding",
+    "category": "Wedding",
+    "categorySlug": "wedding"
+  },
+  {
+    "id": 12,
+    "image": "assets/images/bg/portfolio1.png",
+    "date": "Date: 16 January 2022",
+    "title": "Magic Moments Photo!",
+    "type": "wedding",
+    "category": "Wedding",
+    "categorySlug": "wedding"
+  }
+]

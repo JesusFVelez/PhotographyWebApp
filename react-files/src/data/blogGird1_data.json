@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/blog/blog1.png",
+    "author": " Joha Dea",
+    "commentNumber": "03",
+    "title": "Best Fujifilm Camera 21: Mirrorless, Instax and Compact.",
+    "postDate": {
+      "year": "2022",
+      "month": "Jan",
+      "day": "31"
+    }
+  },
+  {
+    "id": 2,
+    "image": "assets/images/blog/blog2.png",
+    "author": " Joha Dea",
+    "commentNumber": "03",
+    "title": "When it comes to photography blog there talented people.",
+    "postDate": {
+      "year": "2022",
+      "month": "Feb",
+      "day": "11"
+    }
+  },
+  {
+    "id": 3,
+    "image": "assets/images/blog/blog3.png",
+    "author": " Joha Dea",
+    "commentNumber": "02",
+    "title": "How to Use Dramatic Lighting Effectively in Your Photos",
+    "postDate": {
+      "year": "2022",
+      "month": "Feb",
+      "day": "11"
+    }
+  },
+  {
+    "id": 4,
+    "image": "assets/images/blog/blog4.png",
+    "author": " Joha Dea",
+    "commentNumber": "04",
+    "title": "How to Use Dramatic Lighting Effectively in Your Photos",
+    "postDate": {
+      "year": "2022",
+      "month": "Nov",
+      "day": "15"
+    }
+  }
+]

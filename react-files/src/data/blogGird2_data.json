@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/blog/news-1.png",
+    "title": "This is a great photography blog for food.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/blog/news-2.png",
+    "title": "The Best Photography Blogs to Follow for Inspiration!",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/blog/news-3.png",
+    "title": "The sky is the limit with this blog in the world.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/blog/news-4.png",
+    "title": "No one rejects, dislikes, or avoids pleasure.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/blog/news-5.png",
+    "title": "At vero eos et accusamus et iusto odio dignissimos.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/blog/news-6.png",
+    "title": "This is a great photography blog for food.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 7,
+    "image": "assets/images/blog/news-1.png",
+    "title": "Richard McClintock, a Latin professor.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 8,
+    "image": "assets/images/blog/news-2.png",
+    "title": "This is a great photography blog for food.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 9,
+    "image": "assets/images/blog/news-3.png",
+    "title": "This is a great photography blog for food.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 10,
+    "image": "assets/images/blog/news-5.png",
+    "title": "This is a great photography blog for food.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 11,
+    "image": "assets/images/blog/news-5.png",
+    "title": "This is a great photography blog for food.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 12,
+    "image": "assets/images/blog/news-2.png",
+    "title": "This is a great photography blog for food.",
+    "date": "January 12, 2022"
+  },
+  {
+    "id": 13,
+    "image": "assets/images/blog/news-5.png",
+    "title": "This is a great photography blog for food.",
+    "date": "January 12, 2022"
+  },
+
+  {
+    "id": 14,
+    "image": "assets/images/blog/news-1.png",
+    "title": "Richard McClintock, a Latin professor.",
+    "date": "January 12, 2022"
+  }
+]

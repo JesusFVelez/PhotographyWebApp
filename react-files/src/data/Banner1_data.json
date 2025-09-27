@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/bg/hero-slider-img1.png",
+    "category": "Wedding"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/bg/hero-slider-img2.png",
+    "category": "Photography"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/bg/hero-slider-img1.png",
+    "category": "SineMetography"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/bg/hero-slider-img2.png",
+    "category": "Photography"
+  }
+]

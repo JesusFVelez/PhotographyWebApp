@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "largeImg": "assets/images/bg/wedding-img1big.png",
+    "smallImg": "assets/images/bg/wedding-img1.png"
+  },
+  {
+    "id": 2,
+    "largeImg": "assets/images/bg/wedding-img2big.png",
+    "smallImg": "assets/images/bg/wedding-img2.png"
+  },
+  {
+    "id": 3,
+    "largeImg": "assets/images/bg/wedding-img3big.png",
+    "smallImg": "assets/images/bg/wedding-img3.png"
+  },
+  {
+    "id": 4,
+    "largeImg": "assets/images/bg/wedding-img4big.png",
+    "smallImg": "assets/images/bg/wedding-img4.png"
+  },
+  {
+    "id": 5,
+    "largeImg": "assets/images/bg/wedding-img5big.png",
+    "smallImg": "assets/images/bg/wedding-img5.png"
+  },
+  {
+    "id": 6,
+    "largeImg": "assets/images/bg/wedding-img6big.png",
+    "smallImg": "assets/images/bg/wedding-img6.png"
+  },
+  {
+    "id": 7,
+    "largeImg": "assets/images/bg/wedding-img7big.png",
+    "smallImg": "assets/images/bg/wedding-img7.png"
+  },
+  {
+    "id": 8,
+    "largeImg": "assets/images/bg/wedding-img8big.png",
+    "smallImg": "assets/images/bg/wedding-img8.png"
+  },
+  {
+    "id": 9,
+    "largeImg": "assets/images/bg/wedding-img9big.png",
+    "smallImg": "assets/images/bg/wedding-img9.png"
+  },
+  {
+    "id": 10,
+    "largeImg": "assets/images/bg/wedding-img10big.png",
+    "smallImg": "assets/images/bg/wedding-img10.png"
+  },
+  {
+    "id": 11,
+    "largeImg": "assets/images/bg/wedding-img11big.png",
+    "smallImg": "assets/images/bg/wedding-img11.png"
+  },
+  {
+    "id": 12,
+    "largeImg": "assets/images/bg/wedding-img12big.png",
+    "smallImg": "assets/images/bg/wedding-img12.png"
+  }
+]
