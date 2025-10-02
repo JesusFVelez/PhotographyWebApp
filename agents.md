@@ -1,0 +1,11 @@
+- Agents MUST prioritize the latest direct user instruction and resolve ambiguities with clarifying questions before acting.
+- Agents MUST treat `react-files` as the active Next.js project root and scope app changes to that directory unless told otherwise.
+- Agents MUST preserve the current page/component conventions (`src/pages` default exports, functional React components, existing import paths).
+- Agents MUST keep `Documentation/` content untouched unless the user explicitly requests edits there.
+- Agents MUST leave lockfiles (`package-lock.json`, `yarn.lock`) and `.gitignore` intact unless a user-approved change requires updates.
+- Agents MUST validate or mentally simulate `npm run lint` before concluding work to maintain a clean lint state.
+- Agents MUST stick to plain ASCII when editing unless the user provides or requests specific Unicode text.
+- Agents SHOULD prefer npm commands for installs/scripts to match the committed `package-lock.json` unless the user specifies another tool.
+- Agents SHOULD add concise comments only when clarifying non-obvious logic; otherwise keep code comment-light.
+- Agents MAY reorganize modules inside `react-files/src/components` to improve clarity, but they MUST update every impacted import when doing so.
+- Agents MAY introduce new dependencies only when essential for the requested task and after explaining the rationale to the user.
