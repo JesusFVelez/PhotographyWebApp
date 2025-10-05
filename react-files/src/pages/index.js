@@ -2,7 +2,6 @@ import About1 from "../components/about/About1";
 import Banner1 from "../components/banner/Banner1";
 import HomeBooking1 from "../components/booking/HomeBooking1";
 import HeadTitle from "../components/common/HeadTitle";
-import Preloader from "../components/common/Preloade";
 import Footer from "../components/footer/Footer";
 import HomeGallary1 from "../components/gallary/HomeGallary1";
 import Header from "../components/header/Header";
@@ -18,7 +17,6 @@ export default function Home() {
     <>
       <HeadTitle />
       <Header />
-      <Preloader />
       <Banner1 />
       <About1 />
       <Services1 />
