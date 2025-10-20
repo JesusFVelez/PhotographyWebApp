@@ -1,13 +1,11 @@
 import Link from "next/link";
 import React from "react";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
-import Layout from "../layout/Layout";
 
 function Portfolio3Page() {
   return (
     <>
-      <Layout>
-        <Breadcrumb pageName="Our Portfolio 03" pageTitle="Our Portfolio 03" />
+      <Breadcrumb pageName="Our Portfolio 03" pageTitle="Our Portfolio 03" />
         <div className="photo-gallery pt-120 mb-120">
           <div className="container position-relative">
             {/* tab-start */}
@@ -916,7 +914,6 @@ function Portfolio3Page() {
             </div>
           </div>
         </div>
-      </Layout>
     </>
   );
 }

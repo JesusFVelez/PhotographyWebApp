@@ -1,13 +1,11 @@
 import Link from "next/link";
 import React from "react";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
-import Layout from "../layout/Layout";
 
 function CustomError() {
   return (
     <>
-      <Layout>
-        <Breadcrumb pageName="Error" pageTitle="Error" />
+      <Breadcrumb pageName="Error" pageTitle="Error" />
         <div className="error-page pt-120 mb-120">
           <div className="container">
             <div className="row">
@@ -36,7 +34,6 @@ function CustomError() {
             </div>
           </div>
         </div>
-      </Layout>
     </>
   );
 }

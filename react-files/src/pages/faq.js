@@ -1,12 +1,10 @@
 import React from "react";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
-import Layout from "../layout/Layout";
 
 function FaqPage() {
   return (
     <>
-      <Layout>
-        <Breadcrumb pageTitle="FAQ" pageName="FAQ" />
+      <Breadcrumb pageTitle="FAQ" pageName="FAQ" />
         <div className="faq-page pt-120 mb-120">
           <div className="container">
             <div className="row g-4">
@@ -269,7 +267,6 @@ function FaqPage() {
             </div>
           </div>
         </div>
-      </Layout>
     </>
   );
 }

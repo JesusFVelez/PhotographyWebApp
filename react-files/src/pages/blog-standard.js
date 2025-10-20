@@ -8,13 +8,11 @@ import WidgetSearch from "../components/blog/WidgetSearch";
 import WidgetSocial from "../components/blog/WidgetSocial";
 import Widgettag from "../components/blog/Widgettag";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
-import Layout from "../layout/Layout";
 
 function BlogStandardPage() {
   return (
     <>
-      <Layout>
-        <Breadcrumb pageName="Blog Standard" pageTitle="Blog Standard" />
+      <Breadcrumb pageName="Blog Standard" pageTitle="Blog Standard" />
         <div className="inner-blog pt-120 mb-120">
           <div className="container">
             <div className="row g-lg-5 g-4 justify-content-center">
@@ -72,7 +70,6 @@ function BlogStandardPage() {
         />
       )} */}
         </div>
-      </Layout>
     </>
   );
 }

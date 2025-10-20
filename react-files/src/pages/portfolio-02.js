@@ -1,13 +1,11 @@
 import Link from "next/link";
 import React from "react";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
-import Layout from "../layout/Layout";
 
 function Portfolio2Page() {
   return (
     <>
-      <Layout>
-        <Breadcrumb pageName="Our Portfolio 02" pageTitle="Our Portfolio 02" />
+      <Breadcrumb pageName="Our Portfolio 02" pageTitle="Our Portfolio 02" />
         <div className="portfolio-banner pt-120 pb-120">
           <div className="container position-relative">
             {/* tab-start */}
@@ -707,7 +705,6 @@ function Portfolio2Page() {
             </div>
           </div>
         </div>
-      </Layout>
     </>
   );
 }
