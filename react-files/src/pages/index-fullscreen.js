@@ -3,9 +3,7 @@ import About1 from "../components/about/About1";
 import Banner4 from "../components/banner/Banner4";
 import HomeBooking1 from "../components/booking/HomeBooking1";
 import HeadTitle from "../components/common/HeadTitle";
-import Footer from "../components/footer/Footer";
 import HomeGallary1 from "../components/gallary/HomeGallary1";
-import TransparentHeader from "../components/header/TransparentHeader";
 import HomeNews1 from "../components/news/HomeNews1";
 import InstagramFeed1 from "../components/nstagramFeed/InstagramFeed1";
 import Partner1 from "../components/partnar/Partner1";
@@ -18,7 +16,6 @@ function IndexFullscreenPage() {
   return (
     <>
       <HeadTitle />
-      <TransparentHeader />
       <Banner4 />
       <About1 />
       <Services1 />
@@ -30,7 +27,6 @@ function IndexFullscreenPage() {
       <HomeBooking1 />
       <Partner1 />
       <InstagramFeed1 />
-      <Footer />
     </>
   );
 }

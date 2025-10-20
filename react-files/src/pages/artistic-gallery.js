@@ -2,10 +2,10 @@ import React from "react";
 import ModalImage from "react-modal-image";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 
-function GalleryPage() {
+function ArtisticGalleryPage() {
   return (
     <>
-      <Breadcrumb pageName="Gallery" pageTitle="Gallery" />
+      <Breadcrumb pageName="Artistic Gallery" pageTitle="Artistic Gallery" />
         <div className="portfolio-details-pages pt-120 mb-120">
           <div className="container position-relative">
             {/* tab-start */}
@@ -229,15 +229,6 @@ function GalleryPage() {
                       hideZoom={true}
                     />
                   </div>
-                </div>
-              </div>
-              <div
-                className="tab-pane fade"
-                id="pills-contact"
-                role="tabpanel"
-                aria-labelledby="pills-contact-tab"
-              >
-                <div className="row g-4 justify-content-center">
                   <div className="col-lg-4 col-sm-6 col-12">
                     <ModalImage
                       small="assets/images/bg/wedding-img10.png"
@@ -254,6 +245,39 @@ function GalleryPage() {
                       hideZoom={true}
                     />
                   </div>
+                  <div className="col-lg-4 col-sm-6 col-12">
+                    <ModalImage
+                      small="assets/images/bg/wedding-img12.png"
+                      large="assets/images/bg/wedding-img12big.png"
+                      showRotate={true}
+                      hideZoom={true}
+                    />
+                  </div>
+                  <div className="col-lg-4 col-sm-6 col-12">
+                    <ModalImage
+                      small="assets/images/bg/wedding-img13.png"
+                      large="assets/images/bg/wedding-img13big.png"
+                      showRotate={true}
+                      hideZoom={true}
+                    />
+                  </div>
+                  <div className="col-lg-4 col-sm-6 col-12">
+                    <ModalImage
+                      small="assets/images/bg/wedding-img14.png"
+                      large="assets/images/bg/wedding-img14big.png"
+                      showRotate={true}
+                      hideZoom={true}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+              >
+                <div className="row g-4 justify-content-center">
                   <div className="col-lg-4 col-sm-6 col-12">
                     <ModalImage
                       small="assets/images/bg/wedding-img2.png"
@@ -334,6 +358,30 @@ function GalleryPage() {
                       hideZoom={true}
                     />
                   </div>
+                  <div className="col-lg-4 col-sm-6 col-12">
+                    <ModalImage
+                      small="assets/images/bg/wedding-img12.png"
+                      large="assets/images/bg/wedding-img12big.png"
+                      showRotate={true}
+                      hideZoom={true}
+                    />
+                  </div>
+                  <div className="col-lg-4 col-sm-6 col-12">
+                    <ModalImage
+                      small="assets/images/bg/wedding-img13.png"
+                      large="assets/images/bg/wedding-img13big.png"
+                      showRotate={true}
+                      hideZoom={true}
+                    />
+                  </div>
+                  <div className="col-lg-4 col-sm-6 col-12">
+                    <ModalImage
+                      small="assets/images/bg/wedding-img14.png"
+                      large="assets/images/bg/wedding-img14big.png"
+                      showRotate={true}
+                      hideZoom={true}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -347,8 +395,8 @@ function GalleryPage() {
             </div>
           </div>
         </div>
-      </>
+    </>
   );
 }
 
-export default GalleryPage;
+export default ArtisticGalleryPage;

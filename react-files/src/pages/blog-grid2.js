@@ -2,7 +2,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 import blogGiridData from "../data/blogGird2_data.json";
-import Layout from "../layout/Layout";
 function BlogGrid2Page() {
   const [noOfCard, setnoofCard] = useState(6);
   const showLoadmore = () => {
@@ -10,8 +9,7 @@ function BlogGrid2Page() {
   };
   return (
     <>
-      <Layout>
-        <Breadcrumb pageName="Blog Grid 02" pageTitle="Blog Grid 02" />
+      <Breadcrumb pageName="Blog Grid 02" pageTitle="Blog Grid 02" />
         <div className="news-area pt-120 mb-120">
           <div className="container">
             <div className="row g-4 justify-content-center">
@@ -89,7 +87,6 @@ function BlogGrid2Page() {
             </div>
           </div>
         </div>
-      </Layout>
     </>
   );
 }

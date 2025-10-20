@@ -3,12 +3,10 @@ import ModalImage from "react-modal-image";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 import BookingArea from "../components/common/BookingArea";
 import portfolioDetailsData from "../data/portfolioDetails_data.json";
-import Layout from "../layout/Layout";
 function PortfolioDetailsPage() {
   return (
     <>
-      <Layout>
-        <Breadcrumb
+      <Breadcrumb
           pageName="Portfolio Details"
           pageTitle="Portfolio Details"
         />
@@ -69,7 +67,6 @@ function PortfolioDetailsPage() {
           </div>
         </div>
         <BookingArea />
-      </Layout>
     </>
   );
 }

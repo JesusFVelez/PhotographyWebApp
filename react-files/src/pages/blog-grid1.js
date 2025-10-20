@@ -2,12 +2,10 @@ import Link from "next/link";
 import React from "react";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 import blogGrid1Data from "../data/blogGird1_data.json";
-import Layout from "../layout/Layout";
 function BlogGrid1Page() {
   return (
     <>
-      <Layout>
-        <Breadcrumb pageName="Blog Grid 01" pageTitle="Blog Grid 01" />
+      <Breadcrumb pageName="Blog Grid 01" pageTitle="Blog Grid 01" />
         <div className="blog-grid mb-120 pt-120">
           <div className="container">
             <div className="row g-4">
@@ -88,7 +86,6 @@ function BlogGrid1Page() {
             </div>
           </div>
         </div>
-      </Layout>
     </>
   );
 }

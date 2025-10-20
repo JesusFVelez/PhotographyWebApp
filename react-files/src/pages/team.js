@@ -2,12 +2,11 @@ import Link from "next/link";
 import React from "react";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 import teamData from "../data/tem1.json";
-import Layout from "../layout/Layout";
+ 
 function TeamPage() {
   return (
     <>
-      <Layout>
-        <Breadcrumb pageName="Our Team" pageTitle="Our Team" />
+      <Breadcrumb pageName="Our Team" pageTitle="Our Team" />
         <div className="team-section pt-120 pb-120 position-relative">
           <div className="container">
             <div className="row d-flex justify-content-center">
@@ -73,7 +72,6 @@ function TeamPage() {
             </div>
           </div>
         </div>
-      </Layout>
     </>
   );
 }
