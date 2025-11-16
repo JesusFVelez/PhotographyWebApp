@@ -96,14 +96,14 @@ function Header() {
   return (
     <>
       <header className="header-area style-1">
-        <div className="header-logo">
-          <Link href="/" legacyBehavior>
-            <a>
-              <img alt="image" src="assets/images/header-logo.svg" />
-            </a>
-          </Link>
-        </div>
-        <div className="nav-right d-flex align-items-center">
+        <div className="header-branding">
+          <div className="header-logo">
+            <Link href="/" legacyBehavior>
+              <a>
+                <img alt="image" src="assets/images/header-logo.svg" />
+              </a>
+            </Link>
+          </div>
           <button
             type="button"
             className="mobile-menu-toggle"
@@ -119,6 +119,8 @@ function Header() {
               <span className="hamburger-line" />
             </span>
           </button>
+        </div>
+        <div className="nav-right d-flex align-items-center">
           <div className="main-menu">
             <nav aria-label="Primary">
               <ul className="menu-list">{renderNavLinks()}</ul>
@@ -158,6 +160,12 @@ function Header() {
         </aside>
       </header>
       <style jsx global>{`
+        header.style-1 .header-branding {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+        }
+
         header.style-1 .nav-right {
           gap: 48px;
         }
@@ -172,6 +180,10 @@ function Header() {
           header.style-1 {
             flex-wrap: wrap;
             gap: 20px;
+          }
+
+          header.style-1 .header-branding {
+            width: 100%;
           }
 
           header.style-1 .nav-right {
@@ -328,6 +340,11 @@ function Header() {
             gap: 16px;
           }
 
+          header.style-1 .header-branding {
+            justify-content: space-between;
+            width: 100%;
+          }
+
           header.style-1 .nav-right {
             flex-direction: column;
             align-items: stretch;
@@ -340,7 +357,7 @@ function Header() {
 
           header.style-1 .mobile-menu-toggle {
             display: inline-flex;
-            align-self: flex-end;
+            align-self: auto;
           }
 
           header.style-1 .mobile-menu-backdrop {
