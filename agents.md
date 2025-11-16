@@ -1,6 +1,7 @@
 - Agents MUST treat this file as the authoritative ruleset for the repository; merge it with `~/.codex/AGENTS.md` and any closer-directory `AGENTS.md`, respecting the most local guidance when conflicts arise.
 - Agents MUST read `agent_rules.txt` and honor its intent to keep rules simple, flat, and tool-agnostic.
 - Agents MUST prioritize the latest direct user instruction and resolve ambiguities with clarifying questions before acting.
+- Agents MUST always look up the documentation for this project's language in the Context7 MCP server before relying on language-specific behavior or APIs.
 - Agents MUST keep application changes scoped to the `react-files` Next.js workspace unless explicitly directed otherwise.
 - Agents MUST preserve existing Next.js conventions (`src/pages` default exports, functional React components, established import paths).
 - Agents MUST keep `Documentation/` content untouched unless the user explicitly requests edits. **Exception:** `Documentation/features/` is part of the delivery process and MUST be created/updated per the Feature Notes guidelines.
